@@ -33,8 +33,6 @@ const SIZES = {
 };
 
 const StyledButton = styled.button`
-  border: 1px solid red;
-  font-size: 20px;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
