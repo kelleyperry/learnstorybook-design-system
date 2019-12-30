@@ -1,7 +1,12 @@
 {
-  "name": "learnstorybook-design-system",
+  "name": "kperry-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "kelleyperry design system",
+  "main": "dist/index.js",
+  "repository": "git@github.com:kelleyperry/learnstorybook-design-system.git",
+  "author": "Kelley Perry <kelleyperry@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -16,13 +21,18 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
     "chromatic": "CHROMATIC_APP_CODE=v3ave3slcmm chromatic"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
     "@storybook/addon-a11y": "^5.2.8",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-docs": "^5.2.8",
@@ -48,6 +59,7 @@
     "@storybook/addon-storysource": "^5.2.8",
     "@storybook/addons": "^5.2.8",
     "@storybook/react": "^5.2.8",
+    "auto": "^8.7.3",
     "storybook-chromatic": "^3.4.1"
   }
 }
