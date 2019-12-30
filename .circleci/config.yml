@@ -25,5 +25,5 @@ jobs:
       - run: yarn chromatic test --app-code=v3ave3slcmm --exit-zero-on-changes
       - run: if [ $CIRCLE_BRANCH = "master" ]
              then
-               npm run release
+                npm run release
              fi
