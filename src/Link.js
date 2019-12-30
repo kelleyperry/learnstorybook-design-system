@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
-import { darken } from 'polished';
+import React, { Fragment } from "react";
+import PropTypes from "prop-types";
+import styled, { css } from "styled-components";
+import { darken } from "polished";
 
-import { Icon } from './Icon';
-import { color } from './shared/styles';
+import { Icon } from "./Icon";
+import { color } from "./shared/styles";
 
 const linkStyles = css`
   display: inline-block;
@@ -147,9 +147,16 @@ const LinkButton = styled.button`
 const applyStyle = LinkWrapper => {
   return (
     LinkWrapper &&
-    styled(({ containsIcon, inverse, nochrome, secondary, tertiary, ...linkWrapperRest }) => (
-      <LinkWrapper {...linkWrapperRest} />
-    ))`
+    styled(
+      ({
+        containsIcon,
+        inverse,
+        nochrome,
+        secondary,
+        tertiary,
+        ...linkWrapperRest
+      }) => <LinkWrapper {...linkWrapperRest} />
+    )`
       ${linkStyles};
     `
   );
@@ -189,7 +196,7 @@ Link.propTypes = {
   inverse: PropTypes.bool,
   nochrome: PropTypes.bool,
   secondary: PropTypes.bool,
-  tertiary: PropTypes.bool,
+  tertiary: PropTypes.bool
 };
 
 Link.defaultProps = {
@@ -201,5 +208,5 @@ Link.defaultProps = {
   inverse: false,
   nochrome: false,
   secondary: false,
-  tertiary: false,
+  tertiary: false
 };
