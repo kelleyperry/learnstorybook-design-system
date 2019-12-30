@@ -12,6 +12,18 @@
 
 # v0.1.1 (Mon Dec 30 2019)
 
+#### ⚠️  Pushed to master
+
+- added release script  (kperry@billfire.com)
+
+#### Authors: 1
+
+- Kelley Perry (kperry@billfire.com)
+
+---
+
+# v0.1.1 (Mon Dec 30 2019)
+
 
 
 ---
