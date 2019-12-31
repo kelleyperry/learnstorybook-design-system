@@ -8,8 +8,8 @@ jobs:
 
     steps:
       - add_ssh_keys:
-        fingerprints:
-          - "5d:96:93:69:0f:59:38:77:25:b4:69:9c:1f:e6:16:91"
+          fingerprints:
+            - "5d:96:93:69:0f:59:38:77:25:b4:69:9c:1f:e6:16:91"
 
       - checkout
 
