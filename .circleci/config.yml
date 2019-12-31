@@ -27,6 +27,7 @@ jobs:
 
       - run: npm run test
       - run: npm run chromatic test --app-code=v3ave3slcmm --exit-zero-on-changes
+      - run: npm run build
       - run: |
           if [ $CIRCLE_BRANCH = "master" ]
           then
