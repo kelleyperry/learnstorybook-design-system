@@ -18,15 +18,15 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
 
-      - run: yarn install
+      - run: npm run install
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: yarn test
-      - run: yarn chromatic test --app-code=v3ave3slcmm --exit-zero-on-changes
+      - run: npm run test
+      - run: npm run chromatic test --app-code=v3ave3slcmm --exit-zero-on-changes
       - run: |
           if [ $CIRCLE_BRANCH = "master" ]
           then
