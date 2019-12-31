@@ -26,5 +26,5 @@ jobs:
       - run: |
           if [ $CIRCLE_BRANCH = "master" ]
           then
-            yarn release
+            npm run release
           fi
