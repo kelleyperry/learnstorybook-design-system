@@ -1,3 +1,19 @@
+# v0.1.9 (Tue Dec 31 2019)
+
+#### 🐛  Bug Fix
+
+- fuck yarn X 2 [#6](https://github.com/kelleyperry/learnstorybook-design-system/pull/6) (kperry@billfire.com)
+
+#### ⚠️  Pushed to master
+
+- fuck yarn  (kperry@billfire.com)
+
+#### Authors: 1
+
+- Kelley Perry ([@kelleyperry](https://github.com/kelleyperry))
+
+---
+
 # v0.1.3 (Tue Dec 31 2019)
 
 #### 🐛  Bug Fix
