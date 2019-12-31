@@ -1,3 +1,18 @@
+# v0.1.3 (Tue Dec 31 2019)
+
+#### 🐛  Bug Fix
+
+- Fix ci [#5](https://github.com/kelleyperry/learnstorybook-design-system/pull/5) (kperry@billfire.com)
+- fixing ci [#4](https://github.com/kelleyperry/learnstorybook-design-system/pull/4) (kperry@billfire.com)
+- fixing ci [#3](https://github.com/kelleyperry/learnstorybook-design-system/pull/3) (kperry@billfire.com)
+- testing npm publish with ci [#2](https://github.com/kelleyperry/learnstorybook-design-system/pull/2) (kperry@billfire.com)
+
+#### Authors: 1
+
+- Kelley Perry ([@kelleyperry](https://github.com/kelleyperry))
+
+---
+
 # v0.1.1 (Mon Dec 30 2019)
 
 #### ⚠️  Pushed to master
